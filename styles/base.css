@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-prim-white: #ffffff;
+  --color-prim-gradient: linear-gradient(90deg, #f72e8e 0%, #ac1af0 102.84%);
+  --color-prim-soc-blue: #2e8af7;
+  --color-prim-soc-pink: #f72e8e;
+  --color-prim-dark-black: #181a1c;
+  --color-prim-soc-white: #ecebed;
+  --color-prim-pure-black: #000000;
+  --color-sec-lighter-gray: #727477;
+  --color-sec-dark-grey: #323436;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
