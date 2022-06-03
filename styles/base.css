@@ -29,6 +29,8 @@ body {
   background-color: var(--color-prim-dark-black);
   color: var(--color-prim-soc-white);
   padding: 0px 24px;
+  width: 100%;
+  height: 100%;
 }
 
 main {
