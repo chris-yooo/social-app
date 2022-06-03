@@ -99,3 +99,19 @@ nav {
   flex: none;
   flex-grow: 0;
 }
+
+.home-indicator {
+  background-color: black;
+  box-sizing: border-box;
+  position: absolute;
+  width: 375px;
+  height: 24px;
+  top: 50px;
+  left: 0px;
+  bottom: 0px;
+  mix-blend-mode: normal;
+
+  /* blend: pass through need?
+Dont know why i cannot apply a background color to this div class*/
+  background: url(../images/icons/Home\ Indicator.svg) 50% 50% no-repeat;
+}
