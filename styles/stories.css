@@ -1,15 +1,15 @@
 .stories {
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
-  align-content: flex-start;
+  justify-content: flex-end;
   margin: 32px 0px 24px 0px;
   gap: 12px;
-  width: 327px;
-  /* height: 240px; */
+  width: 100%;
+  margin-left: 50px;
   top: 124px;
-  overflow-x: hidden;
+  overflow-x: visible;
 }
+
 .story {
   background: url(../images/stories/woods.jpeg) 50% 50% no-repeat;
   background-size: contain;
@@ -17,7 +17,6 @@
   height: 140px;
   border-radius: 16px;
   /* position: relative; */
-  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -29,7 +28,7 @@
   height: 40px;
   /* left: 30px; */
   /* top: 190px; */
-  z-index: 2;
+  z-index: 1;
   /* border: 3px solid; */
   border-radius: 50%;
   background: linear-gradient(90deg, #f72e8e 0%, #ac1af0 102.84%);
