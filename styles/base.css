@@ -42,3 +42,14 @@ main {
 a {
   text-decoration: none;
 }
+
+article {
+  border: 1px solid var(--color-sec-dark-grey);
+  width: 375px;
+  border-right: 0px;
+  border-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 24px 16px 24px;
+}

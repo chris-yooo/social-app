@@ -1,117 +1,61 @@
 nav {
-  box-sizing: border-box;
-  position: absolute;
-  width: 375px;
-  height: 50px;
-  left: 0px;
-  top: 724px;
-  background-color: black;
-
+  width: 100%;
+  height: 64px;
+  background-color: var(--color-prim-pure-black);
   mix-blend-mode: normal;
-}
-
-.navbar {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px;
   gap: 32px;
-  position: absolute;
-  width: 328px;
-  height: 35px;
-  left: 24px;
-  top: 8px;
-  background-color: black;
+  position: fixed;
+  align-content: center;
+  justify-items: center;
+  bottom: 0px;
+  left: 0px;
+  z-index: 3;
 }
 
 .nav-icon-feed {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding: 10px;
-  gap: 10px;
   width: 40px;
   height: 40px;
   opacity: 0, 5;
-  color: white;
+  color: var(--color-prim-white);
   background: url(../images/icons/Feed.svg) 50% 50% no-repeat;
 }
 
 .nav-icon-search {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding: 10px;
-  gap: 10px;
   width: 40px;
   height: 40px;
   opacity: 0, 5;
-  color: white;
   background: url(../images/icons/Search.svg) 50% 50% no-repeat;
 }
 
 .nav-icon-alert {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding: 10px;
-  gap: 10px;
   width: 40px;
   height: 40px;
   opacity: 0, 5;
-  color: white;
   background: url(../images/icons/Alert.svg) 50% 50% no-repeat;
 }
 
 .nav-icon-profile {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding: 10px;
-  gap: 10px;
   width: 40px;
   height: 40px;
   opacity: 0, 5;
-  color: white;
   background: url(../images/icons/Profile.svg) 50% 50% no-repeat;
 }
 
 .nav-icon-plus {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding: 8px;
-  gap: 10px;
   width: 38px;
   height: 38px;
-  color: white;
-
   background: linear-gradient(90deg, #f72e8e 0%, #ac1af0 102.84%);
   border-radius: 32px;
   background: url(../images/icons/Create.svg) 50% 50% no-repeat;
 
   flex: none;
   flex-grow: 0;
-}
-
-.home-indicator {
-  background-color: black;
-  box-sizing: border-box;
-  position: absolute;
-  width: 375px;
-  height: 24px;
-  top: 50px;
-  left: 0px;
-  bottom: 0px;
-  mix-blend-mode: normal;
-
-  /* blend: pass through need?
-Dont know why i cannot apply a background color to this div class*/
-  background: url(../images/icons/Home\ Indicator.svg) 50% 50% no-repeat;
 }
