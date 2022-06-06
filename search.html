@@ -8,16 +8,11 @@
     <title>Social-App</title>
   </head>
   <body>
-    <header>
+    <header class="header-search">
       <div class="search"></div>
-    <h2>Popular</h2> <!--vorher war hier eine h1 drinne, jedoch ändert sich dann auch das stylkin
-    der h1, die sich im index befindet, also keine gute idee-->
+    <h2>Popular</h2> 
       <div class="filter"></div>
     </header>
-<!-- Die searchbar aus der class search, der Filter aus der 
-  Klasse Filter und die h1  müssen zwischen dem ersten post und
-der searchbar positioniert werden! Deren Proportionen und Abstände unter einander 
-stimmen aber soweit! Also bitte nicht ändern nur oben drüber heften -->
 
     <article>
       <section class="profile-info">
@@ -37,10 +32,12 @@ stimmen aber soweit! Also bitte nicht ändern nur oben drüber heften -->
         />
         </section>
         <div>
-<section> 
-  <img class="message-picture" 
-src="./images/icons/Icon/carousel.svg"
-alt="carousel-img">
+        <section> 
+        <img class="message-picture" src="./images/icons/Icon/carousel.svg" alt="carousel-img">
+        </section>
+        <section class="group-elypse">
+          <img src="./images/icons/ellipse-pink.svg" alt="carousel-1" />
+          <img src="./images/icons/ellipse-grey.svg" alt="carousel-2" />
         </section>
 
       <section class="post-actions">
@@ -84,6 +81,8 @@ alt="carousel-img">
       angezeigt werden. Wäre vllt auch nützlich wenn wir später
     mit JS die funktionen hinzufügen wenn man die anzeigen lassen
   könnte, vllt kriegst du es hin Chris :D-->
+
+  <!-- Die section ist da, wir aber von der Navigation verdeckt. Wäre das Browserfenster höher, könnte man es sehen. :)  -->
       <section class="post-actions">
         <a href="#" aria-label="like" class="action-icon-like"></a>
         <p class="post-actions-typo">4,762</p>
