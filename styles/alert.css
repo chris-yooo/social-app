@@ -1,0 +1,65 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+.header__button {
+  color: red;
+  background-color: rgba(50, 52, 54, 0.5);
+  box-shadow: ghostwhite;
+}
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  padding-left: 2.4rem;
+  font-size: medium;
+}
+
+.alert__day__headline {
+  font-size: 1.3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card--alert {
+  display: flex;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+
+.card__title__socialapp {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  display: flex;
+  gap: 0.8rem;
+  padding-bottom: 0.5rem;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.card--alert__title img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  border-radius: 30%;
+}
+
+.card__title__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.Card-title p {
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.card__text__span {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
