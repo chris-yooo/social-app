@@ -10,6 +10,7 @@ nav {
   position: fixed;
   align-content: center;
   justify-items: center;
+  align-items: center;
   bottom: 0px;
   left: 0px;
   z-index: 3;

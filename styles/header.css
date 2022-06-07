@@ -15,7 +15,7 @@ h1 {
   font-weight: 700;
 }
 
-.message {
+.header__message {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -29,10 +29,10 @@ h1 {
   text-decoration: none;
   color: var(--color-sec-lighter-gray);
   border-radius: 50%;
-  background: url(../images/message.svg) 50% 50% no-repeat;
+  background: url(../images/icons/message.svg) 50% 50% no-repeat;
 }
 
-.message__icon {
+.header__message--icon {
   position: absolute;
   background-color: var(--color-prim-soc-pink);
   border: 1.2px solid;

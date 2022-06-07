@@ -1,91 +1,91 @@
-.profile-info {
+.section__profile-info {
   display: flex;
 }
 
-.profile-picture2 {
+.section__profile-info-picture {
   height: 32px;
   width: 32px;
   border-radius: 50%;
   margin-right: 8px;
 }
 
-.name {
+.section__profile-info-name {
   font-size: 14px;
   line-height: 16px;
   font-weight: 600;
 }
 
-.time {
+.section__profile-info-time {
   font-size: 12px;
   line-height: 16px;
   font-weight: 400;
   color: var(--color-sec-lighter-gray);
 }
 
-.threedot {
+.section__profile-info--threedot {
   margin-left: auto;
 }
 
-.message-content {
+.section__message-content {
   margin: 20px 0px;
   padding-right: 20px;
   font-size: 15px;
 }
 
-.post-actions {
+.section__message-post-actions {
   display: flex;
   align-items: center;
 }
 
-.action-icon-like {
-  height: 16px;
-  width: 16px;
-  margin-right: 8px;
-  background: url(../images/icons/like.svg) 50% 50% no-repeat;
-}
-
-.action-icon-message {
-  height: 16px;
-  width: 16px;
-  margin-right: 8px;
-  background: url(../images/icons/comment.svg) 50% 50% no-repeat;
-}
-
-.action-icon-share {
-  height: 16px;
-  width: 16px;
-  margin-right: 8px;
-  background: url(../images/icons/share.svg) 50% 50% no-repeat;
-}
-
-.action-icon-bookmark {
-  height: 20px;
-  width: 20px;
-  background: url(../images/icons/bookmark.svg) 50% 50% no-repeat;
-  margin-left: auto;
-}
-
-.post-actions-typo {
+.section__message-post-actions--typo {
   margin-right: 20px;
   font-size: 12px;
   line-height: 16px;
   font-weight: 400;
 }
 
-.picture-content {
+.section__message-post-actions--like {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+  background: url(../images/icons/like.svg) 50% 50% no-repeat;
+}
+
+.section__message-post-actions--message {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+  background: url(../images/icons/comment.svg) 50% 50% no-repeat;
+}
+
+.section__message-post-actions--share {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+  background: url(../images/icons/share.svg) 50% 50% no-repeat;
+}
+
+.section__message-post-actions--bookmark {
+  height: 20px;
+  width: 20px;
+  background: url(../images/icons/bookmark.svg) 50% 50% no-repeat;
+  margin-left: auto;
+}
+
+.section__message-picture-content {
   display: flex;
   margin: 16px 0px;
   gap: 10px;
-  overflow-x: visible;
+  overflow-x: auto;
 }
 
-.pictures-in-box {
+.section__message-picture-content-inbox {
   height: 180px;
   width: 327px;
   border-radius: 16px;
 }
 
-.group-elypse {
+.section__message-picture-content--group {
   display: flex;
   gap: 10px;
   justify-content: center;

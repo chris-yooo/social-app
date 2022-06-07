@@ -1,35 +1,26 @@
-.stories {
+.section__stories {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
   margin: 32px 0px 24px 0px;
   gap: 12px;
-  width: 100%;
-  margin-left: 50px;
-  top: 124px;
-  overflow-x: visible;
+  overflow-x: auto;
 }
 
-.story {
+.section__stories--story {
   background: url(../images/stories/woods.jpeg) 50% 50% no-repeat;
   background-size: contain;
   width: 100px;
   height: 140px;
   border-radius: 16px;
-  /* position: relative; */
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
-.gradient {
+.section__story--gradient {
   position: absolute;
   width: 40px;
   height: 40px;
-  /* left: 30px; */
-  /* top: 190px; */
   z-index: 1;
-  /* border: 3px solid; */
   border-radius: 50%;
   background: linear-gradient(90deg, #f72e8e 0%, #ac1af0 102.84%);
   display: flex;
@@ -38,7 +29,7 @@
   margin-bottom: 4px;
 }
 
-.profile-image {
+.section__stories-profile-image {
   width: 36px;
   height: 36px;
   left: 4px;
