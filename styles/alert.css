@@ -1,17 +1,10 @@
-main {
-  display: flex;
-  flex-direction: column;
-}
 .header__button {
-  color: red;
+  color: var(--color-prim-soc-pink);
   background-color: rgba(50, 52, 54, 0.5);
   box-shadow: ghostwhite;
 }
-h1 {
-  font-size: 2rem;
-}
 
-h2 {
+h3 {
   padding-left: 2.4rem;
   font-size: medium;
 }
